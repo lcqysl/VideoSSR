@@ -1,10 +1,20 @@
 # VideoSSR: Video Self-Supervised Reinforcement Learning
 
+
+[![arXiv](https://img.shields.io/badge/arXiv--B31B1B)](<LINK_TO_YOUR_ARXIV_PAPER>)
+[![Hugging Face Models](https://img.shields.io/badge/Hugging%20Face-Models-yellow?logo=huggingface)](<https://huggingface.co/yhx12/VideoSSR>)
+[![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow?logo=huggingface)](<https://huggingface.co/datasets/yhx12/VideoSSR-30k>)
+[![Hugging Face Benchmark](https://img.shields.io/badge/Hugging%20Face-Benchmark-yellow?logo=huggingface)](<https://huggingface.co/datasets/yhx12/VIUBench>)
+
 This repository contains the official implementation for the paper "VideoSSR: Video Self-Supervised Reinforcement Learning".
 
 VideoSSR is a novel framework designed to enhance the video understanding capabilities of Multimodal Large Language Models (MLLMs). Instead of relying on prohibitively expensive manually annotated data or biased model-annotated data, VideoSSR harnesses the rich, intrinsic information within videos to generate high-quality, verifiable training data. We introduce three self-supervised pretext tasks: Anomaly Grounding, Object Counting, and Temporal Jigsaw. Building upon these tasks, we construct the VideoSSR-30K dataset and train models with Reinforcement Learning with Verifiable Rewards (RLVR), establishing a potent foundational framework for developing more advanced video understanding in MLLMs.
-
+## Pretext Tasks
 ![](./assets/pretext_tasks.png)
+
+## VIUBench
+To rigorously test the capabilities of modern MLLMs on fundamental video understanding, we introduce the **V**ideo **I**ntrinsic **U**nderstanding **Bench**mark (**VIUBench**). This benchmark is systematically constructed from our three self-supervised pretext tasks: Anomaly Grounding, Object Counting, and Temporal Jigsaw. It specifically evaluates a model's ability to reason about intrinsic video properties—such as temporal coherence and fine-grained details—independent of external annotations. Our results show that VIUBench poses a significant challenge even for the most advanced models, highlighting a critical area for improvement and validating the effectiveness of our approach.
+![](./assets/VIUBench.png)
 ## Performance Highlights
 ![](./assets/performance1.png)
 
