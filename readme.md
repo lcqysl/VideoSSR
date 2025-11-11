@@ -1,7 +1,7 @@
 # VideoSSR: Video Self-Supervised Reinforcement Learning
 
 
-[![arXiv](https://img.shields.io/badge/arXiv--B31B1B)](<LINK_TO_YOUR_ARXIV_PAPER>)
+[![arXiv](https://img.shields.io/badge/arXiv-paper-B31B1B)](<https://arxiv.org/abs/2511.06281>)
 [![Hugging Face Models](https://img.shields.io/badge/Hugging%20Face-Models-yellow?logo=huggingface)](<https://huggingface.co/yhx12/VideoSSR>)
 [![Hugging Face Dataset](https://img.shields.io/badge/Hugging%20Face-Dataset-yellow?logo=huggingface)](<https://huggingface.co/datasets/yhx12/VideoSSR-30k>)
 [![Hugging Face Benchmark](https://img.shields.io/badge/Hugging%20Face-Benchmark-yellow?logo=huggingface)](<https://huggingface.co/datasets/yhx12/VIUBench>)
